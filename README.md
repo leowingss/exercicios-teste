@@ -9,3 +9,7 @@
 - No terminal escrever `node ex03/index.js`
 - Se o usuário entrar com uma idade menor que 18 vai receber a mensagem `Sem permissão` caso contrário, irá receber `Permissão concedida`. 
 
+## Exercício 04
+
+- Múltiplos de 03 e 05.
+- No terminal escrever `node ex04/index.js`
