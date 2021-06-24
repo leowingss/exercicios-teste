@@ -1,5 +1,19 @@
 const prompt = require('prompt-sync')()
+const clc = require("cli-color");
 
-const idade = parseInt(prompt('Digite sua idade: '))
+function pedirIdade() {
+    const idade = parseInt(prompt('Digite sua idade: '))
+    return idade
+}
 
-console.log('Sua idade é: ', idade)
+function verificarIdade() {
+    const idade = pedirIdade()
+    if (idade >= 18) {
+        console.log(clc.green("Permissão concedida"))
+    } else {
+        console.log(clc.red("Sem permissão"))
+
+    }
+}
+
+verificarIdade()
