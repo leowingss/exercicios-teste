@@ -9,10 +9,9 @@ function pedirIdade() {
 function verificarIdade() {
     const idade = pedirIdade()
     if (idade >= 18) {
-        console.log(clc.green("Permissão concedida"))
+        console.log(clc.green.underline("Permissão concedida"))
     } else {
-        console.log(clc.red("Sem permissão"))
-
+        console.log(clc.red.redBright.underline("Sem permissão"))
     }
 }
 
