@@ -1,13 +1,13 @@
-function insert(numeroNovo) { // Ação de quando clicar no botão inserir na calculadora.
+function inserir(numeroNovo) { // Ação de quando clicar no botão inserir na calculadora.
     const num = document.getElementById('resultado').innerHTML
     document.getElementById('resultado').innerHTML = num + numeroNovo
 }
 
-function clean() { // Limpar 
+function limpar() { // Limpar 
     document.getElementById('resultado').innerHTML = " "
 }
 
-function back() {
+function voltar() {
     const result = document.getElementById('resultado').innerHTML
     document.getElementById('resultado').innerHTML = result.substring(0, result.length - 1) // vai pegar todos caracteres e diminuir 1 de acordo com o tamanho 
         //O método substring() retorna a parte da string entre os índices inicial e final.
