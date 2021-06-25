@@ -4,16 +4,19 @@ function ordenarNumeros(a, b) {
     return a - b
 }
 
-function imprimirNumeros() {}
+function imprimirNumeros() {
+
+    for (let i = 0; i < valores.length; i++) {
+        let valoresOrdenados = valores[i] + ''
+        let tabela = {
+            numeros: valoresOrdenados
+        }
+        console.table(tabela)
+    }
+
+}
 
 valores.sort(ordenarNumeros)
 
-for (let i = 0; i < valores.length; i++) {
-    let valoresOrdenados = valores[i] + ''
-    let tabela = {
-        numeros: valoresOrdenados
-    }
-    console.table(tabela)
-}
 
 imprimirNumeros()
