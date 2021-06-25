@@ -10,7 +10,7 @@ valores.sort(ordenarNumeros)
 
 for (let i = 0; i < valores.length; i++) {
     let valoresOrdenados = valores[i] + ''
-    console.table(valoresOrdenados)
+    console.log(valoresOrdenados)
 }
 
 imprimirNumeros()
