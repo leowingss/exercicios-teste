@@ -1,5 +1,9 @@
 # Exercícios Teste Trainee 
 
+## Exercício 01
+
+- Ordenação de vetores.
+- No terminal escrever `node ex01/index.js`
 ## Exercício 02
 - A calculadora foi feita com HTML, CSS e JS. Para acessar basta abrir o live server ou o arquivo HTML.
 
